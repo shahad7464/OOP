@@ -11,8 +11,10 @@ public class MyCalculator extends JFrame implements ActionListener{
     JLabel l1,l2,l3;
     String str1 = "";
     String str2 = "";
+
     double input1,input2,result;
     int flag = 0;
+
 
     public MyCalculator(){
 
@@ -103,6 +105,7 @@ public class MyCalculator extends JFrame implements ActionListener{
 
         btn4 = new JButton("4");
         btn4.setBounds(2,220,72,50);
+
         add(btn4);
         btn4.addActionListener(this);
 
