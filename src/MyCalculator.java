@@ -99,6 +99,7 @@ public class MyCalculator extends JFrame implements ActionListener{
         btn9.addActionListener(this);
 
         btnDiv = new JButton("➗");
+
         btnDiv.setBounds(224,168,72,50);
         add(btnDiv);
         btnDiv.addActionListener(this);
