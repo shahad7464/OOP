@@ -285,6 +285,7 @@ public class MyCalculator extends JFrame implements ActionListener {
                     input1 = 0;
 
                 }
+
             }
             if (e.getSource() == btnPercent) {
                 str1 = txt1.getText();
